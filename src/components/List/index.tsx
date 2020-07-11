@@ -4,7 +4,7 @@ import { Container, Item, Title } from './styles';
 
 interface Props {
   title: string;
-  elements: React.ReactNode;
+  elements: React.ReactNode[];
 }
 
 const List: React.FC<Props> = ({ title, elements }: Props) => {
@@ -15,7 +15,7 @@ const List: React.FC<Props> = ({ title, elements }: Props) => {
       </Item>
 
       {elements.map(element => (
-        <Item key={element}>{element}</Item>
+        <Item key={title}>{element}</Item>
       ))}
     </Container>
   );

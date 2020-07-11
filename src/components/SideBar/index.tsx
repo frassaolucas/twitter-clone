@@ -23,6 +23,11 @@ const SideBar: React.FC = () => {
           title="Talvez voc6e curta"
           elements={[<h1>Test</h1>, <h1>Test</h1>, <h1>Test</h1>]}
         />
+
+        <List
+          title="Talvez voc6e curta"
+          elements={[<h1>Test</h1>, <h1>Test</h1>, <h1>Test</h1>]}
+        />
       </Body>
     </Container>
   );
