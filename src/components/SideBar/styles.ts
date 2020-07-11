@@ -17,7 +17,7 @@ export const SearchWrapper = styled.div`
   padding: 10px 24px;
   width: min(399px, 100%);
 
-  poistion: fixed;
+  position: fixed;
   top: 0;
   z-index: 2;
   background: var(--primary);
